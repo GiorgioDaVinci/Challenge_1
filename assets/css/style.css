@@ -11,6 +11,8 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    /* The header color was changed to match the color of the rest of the site for 
+    easy accessibility in case people are color sensitive */
     background-color: #0072bb;
     color: #ffffff;
     
@@ -83,6 +85,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
 }
+
+/* The code was simplified by getting rid of repetitions and merging it 
+into one line of code  for easy readability*/
 
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
